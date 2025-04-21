@@ -13,7 +13,7 @@ public class EmpDetails {
 		String tempno=empno;
 		String ename="Pavan_"+empno;
 		System.out.println("in get details "+empno);
-		return new Employee(empno,ename);
+		return new Employee(tempno,ename);
 				
 		
 	}
